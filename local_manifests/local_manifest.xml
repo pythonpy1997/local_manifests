@@ -13,7 +13,7 @@
 
   <project path="device/mediatek/sepolicy" name="realme-mt6785-devs/android_device_mediatek_sepolicy" remote="github" revision="lineage-20" />
 
-  <project path="vendor/realme-firmware" name="realme-mt6785-devs/proprietary_vendor_realme-firmware" remote="github" revision="lineage-20" clone-depth="1" />
+  <project path="vendor/realme-firmware" name="realme-mt6785-devs/proprietary_vendor_realme-firmware" remote="github" revision="master" clone-depth="1" />
 
-  <project path="mediatek/opensource/interfaces" name="realme-mt6785-devs/vendor_mediatek_opensource_interfaces" remote="github" revision="lineage-20" />
+  <project path="vendor/mediatek/opensource/interfaces" name="realme-mt6785-devs/vendor_mediatek_opensource_interfaces" remote="github" revision="lineage-20" />
 </manifest>
