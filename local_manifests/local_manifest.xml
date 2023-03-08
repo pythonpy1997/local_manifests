@@ -17,5 +17,5 @@
 
   <project path="vendor/mediatek/opensource/interfaces" name="realme-mt6785-devs/vendor_mediatek_opensource_interfaces" remote="github" revision="lineage-20" />
 
-  <project path="vendor/extra" name="Hakimi0804/android_vendor_extra" remote="github" revision="main" clone-depth="1" />
+  <project path="vendor/extra" name="Hakimi0804/android_vendor_extra" remote="github" revision="lineage-20" clone-depth="1" />
 </manifest>
