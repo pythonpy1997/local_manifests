@@ -9,13 +9,6 @@
 
   <project
     path="kernel/realme/mt6785"
-    name="realme-mt6785-devs/android_kernel_realme_mt6785"
-    remote="github"
-    revision="lineage-20"
-    clone-depth="1" />
-
-  <project
-    path="device/realme/RM6785-kernel"
     name="sarthakroy2002/kernel_realme_wasabi"
     remote="github"
     revision="R"
