@@ -3,9 +3,9 @@
 
   <project
     path="device/realme/RM6785"
-    name="pythonpy1997/android_device_realme_RM6785"
+    name="pythonpy1997/device_realme_RM6785"
     remote="github"
-    revision="android13" />
+    revision="thirteen" />
 
   <project
     path="kernel/realme/mt6785"
