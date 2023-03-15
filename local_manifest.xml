@@ -16,9 +16,9 @@
 
   <project
     path="device/realme/RM6785-kernel"
-    name="realme-mt6785-devs/android_device_realme_RM6785-kernel"
+    name="sarthakroy2002/kernel_realme_wasabi"
     remote="github"
-    revision="lineage-20"
+    revision="R"
     clone-depth="1" />
 
   <project
@@ -46,12 +46,5 @@
     name="realme-mt6785-devs/vendor_mediatek_opensource_interfaces"
     remote="github"
     revision="lineage-20" />
-
-  <project
-    path="vendor/extra"
-    name="Hakimi0804/android_vendor_extra"
-    remote="github"
-    revision="lineage-20"
-    clone-depth="1" />
 
 </manifest>
