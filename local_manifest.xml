@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="android_packages_apps_Camera2"/>
-
-  <project path="packages/apps/Aperture"
-    name="LineageOS/android_packages_apps_Aperture"
-    remote="github" revision="lineage-20.0" />
-
   <project
     path="device/realme/RM6785"
-    name="Hakimi0804/android_device_realme_RM6785"
+    name="PrathamWasTaken/android_device_realme_RM6785"
     remote="github"
-    revision="arrow-13.0" />
+    revision="blaze-13.0" />
 
   <project
     path="kernel/realme/mt6785"
