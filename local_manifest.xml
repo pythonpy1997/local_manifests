@@ -23,9 +23,9 @@
 
   <project
     path="device/mediatek/sepolicy"
-    name="realme-mt6785-devs/android_device_mediatek_sepolicy"
+    name="PixelExperience/device_mediatek_sepolicy_vndr"
     remote="github"
-    revision="lineage-20" />
+    revision="thirteen" />
 
   <project
     path="vendor/realme-firmware"
