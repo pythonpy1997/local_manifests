@@ -18,7 +18,7 @@
     path="vendor/realme"
     name="realme-mt6785-devs/proprietary_vendor_realme"
     remote="github"
-    revision="lineage-20"
+    revision="pe-thirteen"
     clone-depth="1" />
 
   <project
