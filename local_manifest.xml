@@ -12,6 +12,9 @@
         name="Hakimi0804"
         fetch="https://github.com/Hakimi0804" />
     <remote
+        name="PixelExperience"
+        fetch="https://github.com/PixelExperience" />
+    <remote
         name="Amritorock"
         fetch="https://gitlab.com/Amritorock" />
 
