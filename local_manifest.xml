@@ -1,52 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project
-    path="device/realme/RM6785"
-    name="pythonpy1997/device_realme_RM6785"
-    remote="github"
-    revision="thirteen" />
+    <!-- Remotes -->
+    <remote
+        name="pythonpy1997"
+        fetch="https://github.com/pythonpy1997" />
+    <remote
+        name="realme-mt6785-devs"
+        fetch="https://github.com/realme-mt6785-devs" />
+    <remote
+        name="Hakimi0804"
+        fetch="https://github.com/Hakimi0804" />
+    <remote
+        name="Amritorock"
+        fetch="https://gitlab.com/Amritorock" />
 
-  <project
-    path="kernel/realme/mt6785"
-    name="sarthakroy2002/kernel_realme_wasabi"
-    remote="github"
-    revision="R"
-    clone-depth="1" />
+    <!-- Device tree -->
+    <project
+        path="device/realme/RM6785"
+        name="android_device_realme_RM6785"
+        remote="pythonpy1997"
+        revision="thirteen"
+        clone-depth="1" />
+    <project
+        path="kernel/realme/mt6785"
+        name="android_kernel_realme_mt6785"
+        remote="realme-mt6785-devs"
+        revision="lineage-20"
+        clone-depth="1" />
+    <project
+        path="device/realme/RM6785-kernel"
+        name="android_device_realme_RM6785-kernel"
+        remote="realme-mt6785-devs"
+        revision="lineage-20"
+        clone-depth="1" />
+    <project
+        path="vendor/realme"
+        name="proprietary_vendor_realme"
+        remote="realme-mt6785-devs"
+        revision="pe-thirteen"
+        clone-depth="1" />
 
-  <project
-    path="vendor/realme"
-    name="realme-mt6785-devs/proprietary_vendor_realme"
-    remote="github"
-    revision="pe-thirteen"
-    clone-depth="1" />
+    <!-- Firmware & SEPolicy -->
+    <project
+        path="device/mediatek/sepolicy"
+        name="android_device_mediatek_sepolicy"
+        remote="realme-mt6785-devs"
+        revision="lineage-20" />
+    <project
+        path="vendor/realme-firmware"
+        name="proprietary_vendor_realme-firmware"
+        remote="realme-mt6785-devs"
+        revision="master"
+        clone-depth="1" />
+    <project
+        path="vendor/mediatek/opensource/interfaces"
+        name="vendor_mediatek_opensource_interfaces"
+        remote="realme-mt6785-devs"
+        revision="lineage-20" />
+    <project
+        path="vendor/extra"
+        name="android_vendor_extra"
+        remote="Hakimi0804"
+        revision="lineage-20"
+        clone-depth="1" />
 
-  <project
-    path="device/mediatek/sepolicy_vndr"
-    name="PixelExperience/device_mediatek_sepolicy_vndr"
-    remote="github"
-    revision="thirteen" />
-
-  <project
-    path="vendor/realme-firmware"
-    name="realme-mt6785-devs/proprietary_vendor_realme-firmware"
-    remote="github"
-    revision="master"
-    clone-depth="1" />
-
-  <project
-    path="vendor/mediatek/opensource/interfaces"
-    name="realme-mt6785-devs/vendor_mediatek_opensource_interfaces"
-    remote="github"
-    revision="lineage-20" />
-
-   <remote name="clang"  
-           fetch="https://gitlab.com/Amritorock" />
-
-   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
-            name="clang-r450784d" 
-            remote="clang" 
-            revision="master" 
-            clone-depth="1" />
+    <!-- Clang -->
+    <project
+        path="prebuilts/clang/host/linux-x86/clang-r450784d"
+        name="clang-r450784d"
+        remote="Amritorock"
+        revision="master"
+        clone-depth="1" />
 
 </manifest>
