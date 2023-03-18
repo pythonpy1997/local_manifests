@@ -57,11 +57,6 @@
         revision="master"
         clone-depth="1" />
     <project
-        path="vendor/mediatek/opensource/interfaces"
-        name="vendor_mediatek_opensource_interfaces"
-        remote="realme-mt6785-devs"
-        revision="lineage-20" />
-    <project
         path="vendor/extra"
         name="android_vendor_extra"
         remote="Hakimi0804"
