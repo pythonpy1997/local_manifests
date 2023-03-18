@@ -21,7 +21,7 @@
     <!-- Device tree -->
     <project
         path="device/realme/RM6785"
-        name="android_device_realme_RM6785"
+        name="device_realme_RM6785"
         remote="pythonpy1997"
         revision="thirteen"
         clone-depth="1" />
