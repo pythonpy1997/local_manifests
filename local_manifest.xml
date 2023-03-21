@@ -33,10 +33,10 @@
 
     <!-- Clang -->
     <project
-        path="prebuilts/clang/host/linux-x86/clang-r450784d"
-        name="clang-r450784d"
-        remote="Amritorock"
-        revision="master"
+        path="prebuilts/clang/host/linux-x86/clang-r353983"
+        name="android_prebuilts_clang_host_linux-x86_clang-r353983"
+        remote="pythonpy1997"
+        revision="LOS"
         clone-depth="1" />
 
 </manifest>
