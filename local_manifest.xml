@@ -8,9 +8,6 @@
     <remote
         name="Amritorock"
         fetch="https://gitlab.com/Amritorock" />
-     <remote
-        name="Atlas78"
-        fetch="https://github.com/Atlas78" />
      
 
     <!-- Device tree -->
@@ -22,9 +19,9 @@
         clone-depth="1" />
     <project
         path="kernel/realme/mt6785"
-        name="android_kernel_realme_RMX2001"
-        remote="Atlas78"
-        revision="lineage-18.1"
+        name="kernel_realme_RMX2001"
+        remote="pythonpy1997"
+        revision="Q"
         clone-depth="1" />
     <project
         path="vendor/realme/RMX2001"
