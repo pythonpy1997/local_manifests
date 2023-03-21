@@ -9,14 +9,9 @@
         name="Amritorock"
         fetch="https://gitlab.com/Amritorock" />
      <remote
-        name="bx2nero"
-        fetch="https://github.com/bx2nero" />
-     <remote
         name="Atlas78"
         fetch="https://github.com/Atlas78" />
-     <remote
-        name="SamarV-121"
-        fetch="https://github.com/SamarV-121" />
+     
 
     <!-- Device tree -->
     <project
