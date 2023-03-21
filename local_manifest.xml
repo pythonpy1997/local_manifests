@@ -8,19 +8,28 @@
     <remote
         name="Amritorock"
         fetch="https://gitlab.com/Amritorock" />
+     <remote
+        name="bx2nero"
+        fetch="https://github.com/bx2nero" />
+     <remote
+        name="Atlas78"
+        fetch="https://github.com/Atlas78" />
+     <remote
+        name="SamarV-121"
+        fetch="https://github.com/SamarV-121" />
 
     <!-- Device tree -->
     <project
         path="device/realme/RMX2001"
-        name="device_realme_RMX2001"
+        name="device_realme_RMX2001-1"
         remote="pythonpy1997"
-        revision="lineage-18.1"
+        revision="aosp_r"
         clone-depth="1" />
     <project
         path="kernel/realme/mt6785"
         name="android_kernel_realme_RMX2001"
-        remote="pythonpy1997"
-        revision="Q"
+        remote="Atlas78"
+        revision="lineage-18.1"
         clone-depth="1" />
     <project
         path="vendor/realme/RMX2001"
