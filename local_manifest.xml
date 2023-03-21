@@ -5,10 +5,10 @@
     <remote
         name="pythonpy1997"
         fetch="https://github.com/pythonpy1997" />
-    <remote
-        name="Amritorock"
-        fetch="https://gitlab.com/Amritorock" />
-     
+    
+
+
+
 
     <!-- Device tree -->
     <project
