@@ -33,10 +33,10 @@
 
     <!-- Clang -->
     <project
-        path="prebuilts/clang/host/linux-x86/clang-r353983"
-        name="android_prebuilts_clang_host_linux-x86_clang-r353983"
+        path="prebuilts/clang/host/linux-x86/clang-r383902b1/"
+        name="platform_prebuilts_clang_host_linux-x86"
         remote="pythonpy1997"
-        revision="LOS"
+        revision="eleven"
         clone-depth="1" />
 
 </manifest>
