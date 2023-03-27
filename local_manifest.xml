@@ -17,6 +17,9 @@
     <remote
         name="Amritorock"
         fetch="https://gitlab.com/Amritorock" />
+    <remote
+            name="gitlab"
+	        fetch="https://gitlab.com/" />
 
     <!-- Device tree -->
     <project
@@ -62,6 +65,9 @@
         remote="Hakimi0804"
         revision="lineage-20"
         clone-depth="1" />
+    
+    <!-- Clang toolchain -->
+ <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
 
     <!-- Clang -->
     <project
