@@ -17,16 +17,14 @@
     <remote
         name="Amritorock"
         fetch="https://gitlab.com/Amritorock" />
-    <remote
-            name="gitlab"
-	        fetch="https://gitlab.com/" />
+   
 
     <!-- Device tree -->
     <project
         path="device/realme/RM6785"
         name="device_realme_RM6785"
         remote="pythonpy1997"
-        revision="thirteen"
+        revision="thirteen-oct"
         clone-depth="1" />
     <project
         path="kernel/realme/mt6785"
@@ -66,9 +64,7 @@
         revision="lineage-20"
         clone-depth="1" />
     
-    <!-- Clang toolchain -->
- <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
-
+   
     <!-- Clang -->
     <project
         path="prebuilts/clang/host/linux-x86/clang-r450784d"
