@@ -33,7 +33,7 @@
 
     <!-- Clang -->
     <project
-        path="prebuilts/clang/host/linux-x86/clang-r383902b1/"
+        path="platform_prebuilts_clang_host_linux-x86/clang-r353983c/"
         name="platform_prebuilts_clang_host_linux-x86"
         remote="pythonpy1997"
         revision="eleven"
