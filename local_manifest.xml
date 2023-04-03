@@ -43,6 +43,14 @@
 
     <!-- Firmware & SEPolicy -->
 
+<remove-project name="android_device_mediatek_sepolicy_vndr" />
+   
+    <project
+        path="device/mediatek/sepolicy_vndr"
+        name="PixelExperience/device_mediatek_sepolicy_vndr"
+        remote="github"
+        revision="thirteen" />
+
     <project
         path="vendor/realme-firmware"
         name="proprietary_vendor_realme-firmware"
