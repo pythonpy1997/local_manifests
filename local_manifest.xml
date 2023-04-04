@@ -4,10 +4,10 @@
     <!-- Remotes -->
     <remote
         name="pythonpy1997"
-        fetch="https://github.com/pythonpy1997" />
-    
-
-
+        fetch="https://github.com/pythonpy1997" />  
+     <remote
+        name="DotOS-Devices"
+        fetch="https://github.com/dotOS-Devices" />
 
 
     <!-- Device tree -->
@@ -20,8 +20,8 @@
     <project
         path="kernel/realme/mt6785"
         name="kernel_realme_RMX2001"
-        remote="pythonpy1997"
-        revision="Q"
+        remote="DotOS-Devices"
+        revision="eleven"
         clone-depth="1" />
     <project
         path="vendor/realme/RMX2001"
