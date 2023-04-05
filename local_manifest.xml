@@ -9,13 +9,17 @@
         name="DotOS-Devices"
         fetch="https://github.com/dotOS-Devices" />
 
+<remote
+        name="SamarV-121"
+        fetch="https://github.com/SamarV-121" />  
+
 
     <!-- Device tree -->
     <project
         path="device/realme/RMX2001"
-        name="device_realme_RMX2001-1"
-        remote="pythonpy1997"
-        revision="aosp_r"
+        name="android_device_realme_RMX2001"
+        remote="SamarV-121"
+        revision="lineage-18.1"
         clone-depth="1" />
     <project
         path="kernel/realme/mt6785"
