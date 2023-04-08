@@ -21,6 +21,12 @@
         remote="SamarV-121"
         revision="lineage-18.1"
         clone-depth="1" />
+<project
+        path="device/realme/mt6785-common"
+        name="android_device_realme_mt6785-common"
+        remote="SamarV-121"
+        revision="lineage-18.1"
+        clone-depth="1" />
     <project
         path="kernel/realme/mt6785"
         name="kernel_realme_RMX2001"
