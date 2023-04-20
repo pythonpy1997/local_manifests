@@ -37,7 +37,8 @@
          path="vendor/realme" 
          name="proprietary_vendor_realme" 
          remote="realme-mt6785-devs" 
-         revision="lineage-20" />
+         revision="pe-thirteen" 
+         clone-depth="1" />
 
     <!-- Firmware & SEPolicy -->
     <project
