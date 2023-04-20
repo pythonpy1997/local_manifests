@@ -6,6 +6,9 @@
         name="pythonpy1997"
         fetch="https://github.com/pythonpy1997" />
     <remote
+          name="EvilAnsh" 
+          fetch="https://github.com/EvilAnsh" />
+    <remote
         name="realme-mt6785-devs"
         fetch="https://github.com/realme-mt6785-devs" />
     <remote
@@ -25,18 +28,11 @@
         remote="pythonpy1997"
         revision="thirteen-yaap"
         clone-depth="1" />
-    <project
+    <project 
         path="kernel/realme/mt6785"
-        name="android_kernel_realme_mt6785"
-        remote="realme-mt6785-devs"
-        revision="lineage-20"
-        clone-depth="1" />
-    <project
-        path="device/realme/RM6785-kernel"
-        name="android_device_realme_RM6785-kernel"
-        remote="realme-mt6785-devs"
-        revision="lineage-20"
-        clone-depth="1" />
+        name="kernel_realme_RM6785"
+        remote="EvilAnsh" 
+        revision="R" />    
     <project
         path="vendor/realme"
         name="proprietary_vendor_realme"
