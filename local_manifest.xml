@@ -33,12 +33,11 @@
         name="kernel_realme_RM6785"
         remote="EvilAnsh" 
         revision="R" />    
-    <project
-        path="vendor/realme"
-        name="proprietary_vendor_realme"
-        remote="realme-mt6785-devs"
-        revision="pe-thirteen"
-        clone-depth="1" />
+    <project 
+         path="vendor/realme" 
+         name="proprietary_vendor_realme" 
+         remote="realme-mt6785-devs" 
+         revision="lineage-20" />
 
     <!-- Firmware & SEPolicy -->
     <project
