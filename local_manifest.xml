@@ -18,8 +18,8 @@
         name="PixelExperience"
         fetch="https://github.com/PixelExperience" />
     <remote
-        name="Amritorock"
-        fetch="https://gitlab.com/Amritorock" />
+        name="PixelOS-Devices"
+        fetch="https://gitlab.com/PixelOS-Devices" />
 
     <!-- Device tree -->
     <project
@@ -62,10 +62,10 @@
 
     <!-- Clang -->
     <project
-        path="prebuilts/clang/host/linux-x86/clang-r450784d"
-        name="clang-r450784d"
-        remote="Amritorock"
-        revision="master"
+        path="prebuilts/clang/host/linux-x86/clang-playground"
+        name="clang-playground"
+        remote="PixelOS-Devices"
+        revision="17"
         clone-depth="1" />
 
 </manifest>
