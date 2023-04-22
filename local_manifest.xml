@@ -21,6 +21,8 @@
         name="Amritorock"
         fetch="https://gitlab.com/Amritorock" />
 
+<remove-project name="android_external_chromium-webview_prebuilt_arm64" path="external/chromium-webview/prebuilt/arm64" />
+
     <!-- Device tree -->
     <project
         path="device/realme/RM6785"
