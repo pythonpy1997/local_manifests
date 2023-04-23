@@ -17,9 +17,10 @@
     <remote
         name="PixelExperience"
         fetch="https://github.com/PixelExperience" />
-    <remote
-        name="PixelOS-Devices"
-        fetch="https://gitlab.com/PixelOS-Devices" />
+
+    <remote name="me-lab"
+            fetch="https://gitlab.com/AnkitSavani111/"
+            clone-depth="1" />
 
     <!-- Device tree -->
     <project
@@ -61,11 +62,7 @@
         clone-depth="1" />
 
     <!-- Clang -->
-    <project
-        path="prebuilts/clang/host/linux-x86/clang-playground"
-        name="clang-playground"
-        remote="PixelOS-Devices"
-        revision="17"
-        clone-depth="1" />
+    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="me-lab" revision="master" clone-depth="1" />
+    <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="zyc_clang-16" remote="me-lab" revision="main" clone-depth="1"/>
 
 </manifest>
