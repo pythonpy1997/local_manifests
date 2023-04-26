@@ -30,6 +30,10 @@
         name="Jprimero15"
         fetch="https://gitlab.com/Jprimero15" />
     
+    <remote
+        name="PAAiiN"
+        fetch="https://github.com/PAAiiN" />
+    
     
 
     <!-- Device tree -->
