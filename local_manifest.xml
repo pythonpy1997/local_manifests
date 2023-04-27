@@ -74,8 +74,7 @@
         path="vendor/mediatek/opensource/interfaces"
         name="vendor_mediatek_opensource_interfaces"
         remote="realme-mt6785-devs"
-        revision="lineage-20"
-        clone-depth="1" />
+        revision="lineage-20" />
      
     <!-- Toolchain -->
     <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
