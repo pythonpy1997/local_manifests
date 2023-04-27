@@ -78,11 +78,6 @@
         revision="lineage-20"
         clone-depth="1" />
     <project
-        path="vendor/mediatek/opensource/interfaces"
-        name="vendor_mediatek_opensource_interfaces"
-        remote="realme-mt6785-devs"
-        revision="lineage-20" />
-    <project
         path="external/tinyxml"
         name="android_external_tinyxml"
         remote="pythonpy1997"
