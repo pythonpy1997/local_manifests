@@ -5,7 +5,7 @@
     <remote
         name="pythonpy1997"
         fetch="https://github.com/pythonpy1997" />
-    <remote
+     <remote
           name="EvilAnsh" 
           fetch="https://github.com/EvilAnsh" />
     <remote
@@ -17,10 +17,21 @@
     <remote
         name="PixelExperience"
         fetch="https://github.com/PixelExperience" />
-
-    <remote name="me-lab"
-            fetch="https://gitlab.com/AnkitSavani111/"
-            clone-depth="1" />
+    <remote
+        name="Amritorock"
+        fetch="https://gitlab.com/Amritorock" />
+     <remote
+        name="crdroidandroid"
+        fetch="https://gitlab.com/crdroidandroid" />
+    <remote
+        name="alecchangod"
+        fetch="https://gitlab.com/alecchangod" /> 
+    <remote
+        name="Jprimero15"
+        fetch="https://gitlab.com/Jprimero15" />
+    
+    
+    
 
     <!-- Device tree -->
     <project
@@ -29,19 +40,24 @@
         remote="pythonpy1997"
         revision="thirteen-yaap"
         clone-depth="1" />
-
-    <project 
+    <project
         path="kernel/realme/mt6785"
-        name="kernel_realme_RM6785"
-        remote="EvilAnsh" 
-        revision="R" />    
-
-    <project 
-         path="vendor/realme" 
-         name="proprietary_vendor_realme" 
-         remote="realme-mt6785-devs" 
-         revision="pe-thirteen" 
-         clone-depth="1" />
+        name="android_kernel_realme_mt6785"
+        remote="realme-mt6785-devs"
+        revision="lineage-20"
+        clone-depth="1" />
+    <project
+        path="device/realme/RM6785-kernel"
+        name="android_device_realme_RM6785-kernel"
+        remote="realme-mt6785-devs"
+        revision="lineage-20"
+        clone-depth="1" />
+    <project
+        path="vendor/realme"
+        name="proprietary_vendor_realme"
+        remote="realme-mt6785-devs"
+        revision="pe-thirteen"
+        clone-depth="1" />
 
     <!-- Firmware & SEPolicy -->
     <project
@@ -61,9 +77,24 @@
         remote="Hakimi0804"
         revision="lineage-20"
         clone-depth="1" />
+  
+     
+    <!-- Toolchain -->
+    <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
 
     <!-- Clang -->
-    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="me-lab" revision="master" clone-depth="1" />
-    <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="zyc_clang-16" remote="me-lab" revision="main" clone-depth="1"/>
+    <project
+        path="prebuilts/clang/host/linux-x86/clang-r450784d"
+        name="clang-r450784d"
+        remote="Amritorock"
+        revision="master"
+        clone-depth="1" />
+    
+    
+     <!-- Clang 16 version 16.0.2 -->
+    <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r475365b" revision="13.0" remote="gitlab" />
+    <!-- Clang 17 version 17 -->
+    <project path="prebuilts/clang/host/linux-x86/clang-trb" name="alecchangod/trb_clang" revision="17" remote="gitlab" />
+    
 
 </manifest>
