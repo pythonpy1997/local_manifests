@@ -8,6 +8,9 @@
      <remote
         name="SamarV-121"
         fetch="https://github.com/SamarV-121" />  
+     <remote  
+           name="RahulPalXDA-gitlab"
+           fetch="https://gitlab.com/RahulPalXDA" />
 
 
     <!-- Device tree -->
@@ -45,11 +48,10 @@
         clone-depth="1" />
 
     <!-- Clang -->
-    <project
-        path="prebuilts/clang/host/linux-x86/clang-r353983c/"
-        name="platform_prebuilts_clang_host_linux-x86"
-        remote="pythonpy1997"
-        revision="eleven"
-        clone-depth="1" />
+    <project 
+             path="prebuilts/clang/host/linux-x86/clang-r383902b1" 
+             name="clang.git" 
+             remote="RahulPalXDA-gitlab" 
+             revision="r383902b1" />
 
 </manifest>
