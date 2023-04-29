@@ -4,12 +4,8 @@
     <!-- Remotes -->
     <remote
         name="pythonpy1997"
-        fetch="https://github.com/pythonpy1997" />  
+        fetch="https://github.com/pythonpy1997" />       
      <remote
-        name="DotOS-Devices"
-        fetch="https://github.com/dotOS-Devices" />
-
-<remote
         name="SamarV-121"
         fetch="https://github.com/SamarV-121" />  
 
@@ -21,25 +17,32 @@
         remote="SamarV-121"
         revision="lineage-18.1"
         clone-depth="1" />
-<project
+    <project
         path="device/realme/mt6785-common"
         name="android_device_realme_mt6785-common"
         remote="SamarV-121"
         revision="lineage-18.1"
         clone-depth="1" />
     <project
-        path="kernel/realme/mt6785"
-        name="kernel_realme_RMX2001"
-        remote="DotOS-Devices"
-        revision="eleven"
-        clone-depth="1" />
-    <project
-        path="vendor/realme/RMX2001"
-        name="vendor_realme_RMX2001"
-        remote="pythonpy1997"
-        revision="r11.0"
+        path="kernel/realme/RMX2001"
+        name="android_kernel_realme_RMX2001"
+        remote="SamarV-121"
+        revision="lineage-18.1"
         clone-depth="1" />
     
+    <project
+        path="proprietary/vendor/realme"
+        name="proprietary_vendor_realme"
+        remote="SamarV-121"
+        revision="lineage-18.1"
+        clone-depth="1" />
+    
+    <project
+        path="vendor/extra"
+        name="android_vendor_extra"
+        remote="SamarV-121"
+        revision="lineage-18.1"
+        clone-depth="1" />
 
     <!-- Clang -->
     <project
