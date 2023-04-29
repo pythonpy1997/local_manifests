@@ -35,7 +35,7 @@
     
     <project
         path="proprietary/vendor/realme"
-        name="proprietary_vendor_realme"
+        name="vendor_realme"
         remote="SamarV-121"
         revision="lineage-18.1"
         clone-depth="1" />
