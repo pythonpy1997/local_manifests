@@ -20,16 +20,12 @@
     <remote
         name="Amritorock"
         fetch="https://gitlab.com/Amritorock" />
-     <remote
-        name="crdroidandroid"
-        fetch="https://gitlab.com/crdroidandroid" />
-    <remote
-        name="alecchangod"
-        fetch="https://gitlab.com/alecchangod" /> 
-    <remote
-        name="Jprimero15"
-        fetch="https://gitlab.com/Jprimero15" />
+     
+    <remote name="EvilAnsh" 
+          fetch="https://github.com/EvilAnsh" />
     
+    <remote name="gitlab"
+	        fetch="https://gitlab.com/" />
     
     
 
@@ -40,18 +36,11 @@
         remote="pythonpy1997"
         revision="thirteen-yaap"
         clone-depth="1" />
-    <project
-        path="kernel/realme/mt6785"
-        name="android_kernel_realme_mt6785"
-        remote="realme-mt6785-devs"
-        revision="lineage-20"
-        clone-depth="1" />
-    <project
-        path="device/realme/RM6785-kernel"
-        name="android_device_realme_RM6785-kernel"
-        remote="realme-mt6785-devs"
-        revision="lineage-20"
-        clone-depth="1" />
+    <project 
+        path="kernel/realme/mt6785" 
+        name="kernel_realme_RM6785" 
+        remote="EvilAnsh" 
+        revision="pixel" />
     <project
         path="vendor/realme"
         name="proprietary_vendor_realme"
@@ -80,7 +69,13 @@
   
      
     <!-- Toolchain -->
-    <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="Jprimero15/lolz_clang" revision="main" remote="gitlab" clone-depth="1"/>
+    
+    
+    <project path="prebuilts/clang/host/linux-x86/clang-cosmic"
+             name="GhostMaster69-dev/cosmic-clang" 
+             remote="gitlab" 
+             revision="master" 
+             clone-depth="1" />
 
     <!-- Clang -->
     <project
@@ -89,12 +84,7 @@
         remote="Amritorock"
         revision="master"
         clone-depth="1" />
-    
-    
-     <!-- Clang 16 version 16.0.2 -->
-    <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r475365b" revision="13.0" remote="gitlab" />
-    <!-- Clang 17 version 17 -->
-    <project path="prebuilts/clang/host/linux-x86/clang-trb" name="alecchangod/trb_clang" revision="17" remote="gitlab" />
+        
     
 
 </manifest>
