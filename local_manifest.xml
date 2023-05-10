@@ -20,6 +20,9 @@
     <remote
         name="Amritorock"
         fetch="https://gitlab.com/Amritorock" />
+    <remote 
+         name="gitlab"
+	     fetch="https://gitlab.com/" />
 
     <!-- Device tree -->
     <project
@@ -29,17 +32,10 @@
         revision="tirimbino-bootleg"
         clone-depth="1" />
    <project
-        path="kernel/realme/mt6785"
-        name="android_kernel_realme_mt6785"
-        remote="realme-mt6785-devs"
-        revision="lineage-20"
-        clone-depth="1" />
-    <project
-        path="device/realme/RM6785-kernel"
-        name="android_device_realme_RM6785-kernel"
-        remote="realme-mt6785-devs"
-        revision="lineage-20"
-        clone-depth="1" /> 
+          path="kernel/realme/mt6785"
+          name="kernel_realme_RM6785"
+          remote="pythonpy1997"
+          revision="pixel" />
     <project
         path="vendor/realme"
         name="proprietary_vendor_realme"
@@ -65,6 +61,16 @@
         remote="Hakimi0804"
         revision="lineage-20"
         clone-depth="1" />
+    
+    <!-- Clang toolchain -->
+    <project 
+          path="prebuilts/clang/host/linux-x86/clang-cosmic"
+          name="GhostMaster69-dev/cosmic-clang"                          
+          remote="gitlab"
+          revision="master" 
+          clone-depth="1" />
+
+    
 
     <!-- Clang -->
     <project
