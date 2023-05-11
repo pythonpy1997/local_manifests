@@ -33,9 +33,9 @@
         clone-depth="1" />
    <project
           path="kernel/realme/mt6785"
-          name="kernel_realme_mt6785"
+          name="kernel_realme_wasabi"
           remote="pythonpy1997"
-          revision="thirteen" />
+          revision="R" />
     <project
         path="vendor/realme"
         name="proprietary_vendor_realme"
