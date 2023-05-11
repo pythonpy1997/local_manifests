@@ -33,9 +33,9 @@
         clone-depth="1" />
    <project
           path="kernel/realme/mt6785"
-          name="kernel_realme_RM6785"
+          name="kernel_realme_mt6785"
           remote="pythonpy1997"
-          revision="pixel" />
+          revision="thirteen" />
     <project
         path="vendor/realme"
         name="proprietary_vendor_realme"
@@ -62,15 +62,9 @@
         revision="lineage-20"
         clone-depth="1" />
     
-    <!-- Clang toolchain -->
-    <project 
-          path="prebuilts/clang/host/linux-x86/clang-cosmic"
-          name="GhostMaster69-dev/cosmic-clang"                          
-          remote="gitlab"
-          revision="master" 
-          clone-depth="1" />
-
     
+
+
 
     <!-- Clang -->
     <project
