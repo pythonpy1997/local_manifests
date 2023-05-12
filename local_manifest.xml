@@ -39,7 +39,7 @@
     <project 
         path="kernel/realme/mt6785" 
         name="kernel_realme_RM6785" 
-        remote="EvilAnsh" 
+        remote="pythonpy1997" 
         revision="pixel" />
     <project
         path="vendor/realme"
