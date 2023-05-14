@@ -22,8 +22,10 @@
         fetch="https://gitlab.com/Amritorock" />
     <remote 
          name="gitlab"
-	     fetch="https://gitlab.com/" />
-
+	 fetch="https://gitlab.com/" />
+    <remote
+          name="iamthecloverly" 
+          fetch="https://github.com/iamthecloverly" />
     <!-- Device tree -->
     <project
         path="device/realme/RM6785"
@@ -33,10 +35,9 @@
         clone-depth="1" />
    <project
         path="kernel/realme/mt6785"
-        name="kernel_realme_wasabi"
-        remote="pythonpy1997"
-        revision="R"
-        clone-depth="1" />   
+        name="android_kernel_realme_mt6785"
+        remote="iamthecloverly"
+        revision="lineage-20.0" />   
     <project
         path="vendor/realme"
         name="proprietary_vendor_realme"
