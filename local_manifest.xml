@@ -23,7 +23,7 @@
         path="device/realme/RM6785"
         name="device_realme_RM6785"
         remote="pythonpy1997"
-        revision="thirteen"
+        revision="thirteen-plus"
         clone-depth="1" />
     <project
         path="kernel/realme/mt6785"
