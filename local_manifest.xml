@@ -5,9 +5,6 @@
     <remote
         name="pythonpy1997"
         fetch="https://github.com/pythonpy1997" />
-     <remote
-          name="EvilAnsh" 
-          fetch="https://github.com/EvilAnsh" />
     <remote
         name="realme-mt6785-devs"
         fetch="https://github.com/realme-mt6785-devs" />
